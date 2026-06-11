@@ -68,7 +68,7 @@ OAIS (ISO 14721), PREMIS, METS, BagIt, DPC RAM v2.0, NDSA Levels of Digital Pres
 
 ## Reviews
 
-This skill has been independently reviewed by Codex (×2), Grok, and Gemini before publication.
+Independent reviews from other archivists, practitioners, and AI researchers are very welcome — please open an issue or pull request.
 
 ## Licence
 
