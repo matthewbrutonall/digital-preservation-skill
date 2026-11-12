@@ -1,5 +1,7 @@
 # Digital Preservation Skill for Claude Code
 
+![Digital records being checked, stored in multiple copies, and prepared for access](assets/digital-preservation-skill.png)
+
 A professional-grade skill for [Claude Code](https://claude.ai/code) covering digital preservation — from first principles through to practical operations. Built for archivists, records managers, museum staff, and heritage professionals.
 
 ## What It Covers
