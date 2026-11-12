@@ -4,6 +4,14 @@
 
 A professional-grade skill for [Claude Code](https://claude.ai/code) covering digital preservation — from first principles through to practical operations. Built for archivists, records managers, museum staff, and heritage professionals.
 
+## Install with your AI agent
+
+Copy and paste this into your agent:
+
+```text
+Install the Digital Preservation skill from https://github.com/matthewbrutonall/digital-preservation-skill using your agent's supported skill installation method. Use the packaged skill or keep the complete `digital-preservation` directory, including its reference files, together. Confirm the skill is available and tell me how to invoke it. Do not inspect my records yet.
+```
+
 ## What It Covers
 
 - **Frameworks and models** — DPC RAM, OAIS, NDSA Levels, DPM 3-Legged Stool
