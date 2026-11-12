@@ -1,10 +1,24 @@
-# Digital Preservation Skill for Claude Code
+# Digital Preservation Skill
 
 ![Digital records being checked, stored in multiple copies, and prepared for access](assets/digital-preservation-skill.png)
 
-A professional-grade skill for [Claude Code](https://claude.ai/code) covering digital preservation — from first principles through to practical operations. Built for archivists, records managers, museum staff, and heritage professionals.
+Digital files need continuing care if people are to open and understand them years from now. This **agent skill** helps an assistant give practical digital preservation guidance, from receiving files through checking, storing, documenting, and making them accessible.
 
-## Install with your AI agent
+For example, if a donor offers a hard drive, you can ask the agent how to receive it safely. It can help you plan what to record about the transfer, how to check for malware, how to avoid changing the original files, and what to check before making access copies. This is guidance for a workflow; the skill does not itself run those checks or preserve the drive.
+
+It is for archivists, records managers, museum staff, librarians, and heritage workers, including people new to digital preservation. You can ask an ordinary question and request a checklist suited to your collection and resources.
+
+## What it helps with
+
+- **Receiving and checking files:** plan transfers, virus checks, inventories, and checksums. A checksum is a value used to detect changes in file bytes.
+- **Keeping files usable:** choose storage copies, monitor file formats, and plan migration when a format becomes hard to open.
+- **Documenting decisions:** record preservation actions, responsibilities, rights, restrictions, and the information needed to understand the material.
+- **Providing access:** plan access copies, accessibility, sensitive-data review, and user needs.
+- **Building a programme:** develop policy, staffing, budgets, disaster plans, and records-management procedures.
+
+The skill contains written guidance and reference files. It does not include a preservation system, scan files, make backups, or decide whether access is lawful in a particular case. Check recommendations against your institution's policy and the law that applies to your records.
+
+## Set it up with your AI agent
 
 Copy and paste this into your agent:
 
@@ -12,7 +26,9 @@ Copy and paste this into your agent:
 Install the Digital Preservation skill from https://github.com/matthewbrutonall/digital-preservation-skill using your agent's supported skill installation method. Use the packaged skill or keep the complete `digital-preservation` directory, including its reference files, together. Confirm the skill is available and tell me how to invoke it. Do not inspect my records yet.
 ```
 
-## What It Covers
+Once installed, you might ask: “We have received 200 photographs on a USB drive. Give me a first-week intake checklist and say which decisions need an archivist.”
+
+## Professional topics in the guide
 
 - **Frameworks and models** — DPC RAM, OAIS, NDSA Levels, DPM 3-Legged Stool
 - **Bitstream preservation** — integrity checking, fixity, checksums, storage planning, 3-2-1 rule
@@ -29,21 +45,13 @@ Install the Digital Preservation skill from https://github.com/matthewbrutonall/
 
 Includes jurisdiction notes for UK, Ireland, USA, Australia, and EU.
 
-## Install
+## Installation files
 
-```bash
-claude skills install https://github.com/matthewbrutonall/digital-preservation-skill
-```
-
-Or download [`digital-preservation.skill`](digital-preservation.skill) and install locally:
-
-```bash
-claude skills install digital-preservation.skill
-```
+The packaged [`digital-preservation.skill`](digital-preservation.skill) file and the complete `digital-preservation/` directory are both provided. Use your agent's supported skill installation method and keep the reference files together.
 
 ## Usage
 
-Once installed, Claude will automatically apply this skill when you ask about digital preservation topics. For example:
+Once installed, ask your agent about digital preservation topics. For example:
 
 - *"How do I set up an ingest workstation?"*
 - *"What checksum algorithm should I use?"*
